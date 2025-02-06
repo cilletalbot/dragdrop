@@ -1,0 +1,54 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+ :root {
+   --contrast: lime;
+   --backgr: #000;
+ }
+
+/* Use your variables on elements */
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+  
+ }
+
+ body {
+  background-color: rgb(231, 198, 66);
+}
+
+
+ #div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #342aff;
+}
+
+
+p {
+  text-align: center;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+
+#drag {
+  width: 200px;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 10px;    
+  margin-top: 50px;
+
+}
